@@ -1,0 +1,49 @@
+.loader {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db; /* Blue text color */
+    text-align: center;
+    margin: 20px;
+    display: none; /* Hidden by default */
+}
+.dots {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 24px;
+}
+.dots div {
+    position: absolute;
+    bottom: 0px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #3498db;
+    animation: dotFlashing 1.2s infinite ease-in-out both;
+}
+.dots div:nth-child(1) {
+    left: 0px;
+    animation-delay: -0.24s;
+}
+.dots div:nth-child(2) {
+    left: 5px;
+    animation-delay: -0.12s;
+}
+.dots div:nth-child(3) {
+    left: 10px;
+    animation-delay: 0;
+}
+@keyframes dotFlashing {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.request {
+    background-color: #cbcbcb;
+}
+.response {
+    background-color: #e0f7fa;
+}
