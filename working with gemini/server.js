@@ -9,7 +9,7 @@ const port = 8082;
 app.use(cors());
 app.use(bodyParser.json()); 
 app.use(express.static('public'));
-const genAI = new GoogleGenerativeAI("API_KEY"); //! you can generate the api key from Google AI Studio 
+const genAI = new GoogleGenerativeAI("AIzaSyCyvvw1MVUFdaWrzKh0cdujcAoxA85HIK8"); //! you can generate the api key from Google AI Studio 
 // API endpoint to generate data based on user's prompt
 app.post('/generate', async (req, res) => {
     console.log('Received request:', req.body); // Log the request body
@@ -33,4 +33,4 @@ app.post('/generate', async (req, res) => {
 });
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
-});AIzaSyCyvvw1MVUFdaWrzKh0cdujcAoxA85HIK8
+});
