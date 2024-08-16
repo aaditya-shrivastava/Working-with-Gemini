@@ -33,4 +33,4 @@ app.post('/generate', async (req, res) => {
 });
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
-});AIzaSyCyvvw1MVUFdaWrzKh0cdujcAoxA85HIK8
+});
