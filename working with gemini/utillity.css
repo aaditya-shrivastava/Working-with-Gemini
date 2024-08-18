@@ -42,8 +42,35 @@
     }
 }
 .request {
-    background-color: #cbcbcb;
+    background-color: #50577A;
+    margin: 5px 0px;
+    border-radius: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 10px;
+    cursor: context-menu;
+}
+.request svg{
+    filter: invert(1);
+}
+.request p{
+    padding-right: 30px;
+    color: whitesmoke;
 }
 .response {
-    background-color: #e0f7fa;
+    background-color: #6B728E;
+    margin: 5px 0px;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 10px 20px 20px 20px;
+    cursor: context-menu;
+}
+.response svg{
+    filter: invert(1);
+}
+.response p{
+    padding: 0px 40px 0px 30px;
+    color: whitesmoke;
 }

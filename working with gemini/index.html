@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generate Content</title>
-<link rel="stylesheet" href="utillity.css">
-<link rel="stylesheet" href="pageStyle.css">
-</head>
-<body>
-    <h1>My Chat-BOX</h1>
-    <form id="generateForm">
-        <input id="userPrompt" type="text" placeholder="Enter your prompt" size="50">
-        <button type="submit">Generate</button>
-    </form>
-    
-    <!-- Loader element -->
-    <div id="loader" class="loader">
-        Loading
-        <div class="dots">
+    <link rel="stylesheet" href="utillity.css" />
+    <link rel="stylesheet" href="pageStyle.css" />
+  </head>
+  <body>
+    <div class="body">
+      <main>
+        <h1 id="heading">My Chat-BOX</h1>
+        <form id="generateForm">
+          <div class="input">
+            <input id="userPrompt" type="text" placeholder="Enter your prompt" required/>
+            <button type="submit"><img src="enter.svg" /></button>
+          </div>
+        </form>
+
+        <!-- Loader element -->
+        <div id="loader" class="loader">
+          Loading
+          <div class="dots">
             <div></div>
             <div></div>
             <div></div>
+          </div>
         </div>
+
+        <!-- Container to hold request and response divs -->
+        <div class="dataDiv">
+          <div id="historyContainer" class="history-container"></div>
+        </div>
+      </main>
     </div>
-
-    <!-- Container to hold request and response divs -->
-    <div id="historyContainer" class="history-container"></div>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
