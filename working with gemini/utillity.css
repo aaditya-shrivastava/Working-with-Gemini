@@ -5,6 +5,9 @@
     text-align: center;
     margin: 20px;
     display: none; /* Hidden by default */
+    position: absolute;
+    bottom: 15%;
+    left: 48%;
 }
 .dots {
     display: inline-block;
@@ -52,14 +55,16 @@
     cursor: context-menu;
 }
 .request svg{
+    display: block;
     filter: invert(1);
 }
 .request p{
+    display: block;
     padding-right: 30px;
     color: whitesmoke;
 }
 .response {
-    background-color: #6B728E;
+    background-color: #5c6279;
     margin: 5px 0px;
     padding-left: 20px;
     border-radius: 20px;
@@ -70,7 +75,8 @@
 .response svg{
     filter: invert(1);
 }
-.response p{
+.response ul{
+    list-style-type: none;
     padding: 0px 40px 0px 30px;
     color: whitesmoke;
 }
