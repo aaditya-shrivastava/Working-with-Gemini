@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const port = 8082;
-
 // Initialize Google Generative AI with your API key
 app.use(cors());
 app.use(bodyParser.json()); 

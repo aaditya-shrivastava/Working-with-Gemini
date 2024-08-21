@@ -79,4 +79,4 @@ document.getElementById('generateForm').addEventListener('submit', async (event)
       // Hide the loader
       document.getElementById('loader').style.display = 'none';
     }
-  });
+  }); 
