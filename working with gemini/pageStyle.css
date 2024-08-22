@@ -15,8 +15,9 @@ main{
     margin: auto;
 }
 #heading{
+    margin-top: 15px;
     position: absolute;
-    left: 15vw;
+    left: 45%;
     color: white;
 }
 form .input{
@@ -30,6 +31,8 @@ form .input{
     border-radius: 20px;
 }
 form input{
+    background-color: #6b728e29;
+    padding-left: 10px;
     border-radius: 20px;
     width: 92.5%;
     height: 6vh;
@@ -49,7 +52,4 @@ form button[type="submit"]{
     height: 80vh;
     overflow-y: scroll;
     scrollbar-width: none;
-}
-#loader{
-
 }
