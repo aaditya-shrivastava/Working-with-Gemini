@@ -1,37 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.body{
+  }
+  .body {
     width: 100vw;
-    height: 100vh;
-    background-color: black;
-}
-main{
+    height: 80vh;
+    background-color: rgb(44, 44, 44);
+    padding: 10vh 0px;
+  }
+  main {
     background-color: #4042583d;
-    box-shadow: 0px 0px 10px 10px #4042583d;
-    height: 100vh;
+    height: 80vh;
     width: 70vw;
+    border-radius: 20px;
     margin: auto;
-}
-#heading{
-    margin-top: 15px;
+  }
+  #heading {
+    margin-top: -30px;
     position: absolute;
-    left: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     color: white;
-}
-form .input{
+    font-size: 3vw;
+  }
+  form .input {
     display: flex;
     position: absolute;
     bottom: 2%;
     width: 60%;
     margin-left: 4%;
-    padding:.5% 0px 0px 2%;
+    padding: 0.5% 0px 0px 2%;
     background-color: white;
     border-radius: 20px;
-}
-form input{
-    background-color: #6b728e29;
+  }
+  form input {
     padding-left: 10px;
     border-radius: 20px;
     width: 92.5%;
@@ -39,17 +41,17 @@ form input{
     font-size: 18px;
     border: none;
     outline: none;
-}
-form button[type="submit"]{
+  }
+  form button[type="submit"] {
     border: none;
     background-color: white;
     border-radius: 50%;
-}
-.dataDiv{
+  }
+  .dataDiv {
     position: absolute;
     bottom: 10%;
-    width: 68%;
+    width: 69%;
     height: 80vh;
     overflow-y: scroll;
     scrollbar-width: none;
-}
+  }
